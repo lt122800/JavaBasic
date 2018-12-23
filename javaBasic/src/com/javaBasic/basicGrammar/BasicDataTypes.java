@@ -21,7 +21,7 @@ public class BasicDataTypes {
 	//一种字符类型
 	char ch;
 	
-	//引用数据类型，局部变量创建后，变量名存放在方法栈中，对象是存在堆中；全局变量创建后，
+	//引用数据类型，局部变量创建后，变量名存放在方法栈中，对象是存在堆中；全局变量创建后，变量名和对象都存放再堆中。
 	Byte byte1;
 	Short short1;
 	Integer integer;
