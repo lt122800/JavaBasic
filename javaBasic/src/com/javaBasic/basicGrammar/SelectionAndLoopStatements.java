@@ -61,6 +61,6 @@ public class SelectionAndLoopStatements {
     }
 
     public static void main(String[] args) {
-        loopSign();
+        loopSign(); 
     }
 }
