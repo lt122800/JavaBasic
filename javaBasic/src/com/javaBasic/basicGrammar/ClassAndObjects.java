@@ -4,6 +4,8 @@ package com.javaBasic.basicGrammar;
  * @Author: LT
  * @Date: 2018/12/23 20:22
  * @Description 类和对象
+ * 1、为什么不能在类里面实例化对象去调用？
+ * 答：类中包含属性和方法，属性是这个对象拥有什么，方法是这个对象可以做什么，对象的操作应该在方法里面执行。
  */
 
 //一个源文件只能有一个public类，可以有多个非public类
@@ -63,6 +65,5 @@ class man extends people {
 
     public static void main(String[] args) {
         man m = new man();
-
     }
 }
