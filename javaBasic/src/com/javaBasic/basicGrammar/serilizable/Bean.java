@@ -9,10 +9,12 @@ import java.io.Serializable;
  */
 public class Bean implements Serializable {
 
-	private static String A = "268";
+	private static final long serialVersionUID = 1L;
+	private static String A = "8";
 	private String name;
 	private String age;
 	private String adr;
+	private transient String B = "22";
 
 	public String getName() {
 		return name;
@@ -38,10 +40,18 @@ public class Bean implements Serializable {
 		this.adr = adr;
 	}
 
+	public String getB() {
+		return B;
+	}
+
+	public void setB(String b) {
+		B = b;
+	}
+
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "对象：name='" + name + "'," + "age='" + age + "'," + "adr='" + adr + "," + "A=" + A;
+		return "对象：name='" + name + "'," + "age='" + age + "'," + "adr='" + adr + "," + "A=" + A + ",B=" + B;
 	}
 
 }

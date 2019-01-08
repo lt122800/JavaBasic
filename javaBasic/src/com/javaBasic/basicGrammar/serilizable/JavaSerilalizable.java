@@ -10,8 +10,8 @@ import java.io.ObjectOutputStream;
 /**
  * @Author: LT
  * @Date: 2019年1月7日 上午10:22:03
- * @Description 序列化和反序列化
- * 
+ * @Description 序列化和反序列化 1、静态的变量不会被序列化 2、transient 修饰的属性，是不会被序列化的
+ *              3、实现这个Serializable 接口的时候，一定要给这个 serialVersionUID 赋值
  */
 public class JavaSerilalizable {
 
@@ -23,7 +23,7 @@ public class JavaSerilalizable {
 	private static void testSerializable() throws IOException {
 		Bean bean = new Bean();
 		bean.setName("tao");
-		bean.setAge("13");
+		bean.setAge("131");
 		bean.setAdr("sh");
 		System.out.println(bean.toString());
 		ObjectOutputStream oos = new ObjectOutputStream(
@@ -50,6 +50,7 @@ public class JavaSerilalizable {
 	}
 
 	public static void main(String[] args) throws Exception {
+		// testSerializable();
 		System.out.println(testDeseirilizable().toString());
 	}
 
