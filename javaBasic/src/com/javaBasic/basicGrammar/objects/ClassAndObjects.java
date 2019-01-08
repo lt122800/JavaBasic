@@ -1,4 +1,4 @@
-package com.javaBasic.basicGrammar;
+package com.javaBasic.basicGrammar.objects;
 
 /**
  * @Author: LT

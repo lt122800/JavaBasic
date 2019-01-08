@@ -1,4 +1,4 @@
-package com.javaBasic.basicGrammar;
+package com.javaBasic.basicGrammar.enumAndAnnotation;
 /**
  * @Author: LT
  * @Date: 2018年12月26日 上午10:47:44
