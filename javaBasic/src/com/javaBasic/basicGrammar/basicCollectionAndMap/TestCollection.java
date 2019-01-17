@@ -1,10 +1,6 @@
 package com.javaBasic.basicGrammar.basicCollectionAndMap;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Vector;
+import java.util.*;
 
 /**
  * @Author: LT
@@ -57,10 +53,21 @@ public class TestCollection {
 
 	// TreeSet会默认把里面的元素排序
 	public static void testTreeSet() {
-
+		//自然怕排序
+		TreeSet<Integer> treeSet=new TreeSet<>();
+		treeSet.add(5);
+		treeSet.add(4);
+		treeSet.add(1);
+		//System.out.println(treeSet);
+		TreeSet<Object> treeSet1=new TreeSet<>();
+		treeSet1.add(new Student(12,"cc"));
+		treeSet1.add(new Student(15,"aa"));
+		treeSet1.add(new Student(12,"dd"));
+		treeSet1.add(new Student(12,"bb"));
+		System.out.println(treeSet1);
 	}
 
 	public static void main(String[] args) {
-		testArrayList();
+		testTreeSet();
 	}
 }
