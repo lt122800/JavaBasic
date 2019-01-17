@@ -7,8 +7,6 @@ package com.javaBasic.basicGrammar.basicThread.sychronized;
  */
 public class testSychronized implements Runnable {
 
-	Foo foo = new Foo();
-
 	public static void main(String[] args) {
 		testSychronized ts = new testSychronized();
 		Thread t1 = new Thread(ts, "Thread-a");
@@ -18,18 +16,23 @@ public class testSychronized implements Runnable {
 	}
 
 	@Override
-	public void run() {
-		for (int i = 0; i < 3; i++) {
-			foo.fix(30);
-			try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+	public synchronized void run() {
+		System.out.println(this.getClass().hashCode());
+		for (int i = 0; i < 5; i++) {
+			System.out.println(Thread.currentThread().getName() + "---" + i);
+			if (Thread.currentThread().getName().equals("Thread-a") && i == 2) {
+				try {
+					// this.wait();
+					Thread.sleep(10000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
 			}
-			System.out.println(Thread.currentThread().getName() + "：当前对象的值=" + foo.getX());
 		}
-
+		if (Thread.currentThread().getName().equals("Thread-b")) {
+			this.notify();
+		}
 	}
 
 }
