@@ -51,7 +51,7 @@ public class JavaSerilalizable {
 
 	public static void main(String[] args) throws Exception {
 		// testSerializable();
-		System.out.println(testDeseirilizable().toString());
+		// System.out.println(testDeseirilizable().toString());
 	}
 
 }
