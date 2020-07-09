@@ -9,7 +9,7 @@ public class YiweiArrays {
 
 	// 创建三种方式
 	int[] arr1 = new int[4];
-	int a = arr1[3];// 下标取值
+	int a = arr1[3];// 下标赋值
 
 	int[] arr2 = { 1, 3, 5, 7 };
 
