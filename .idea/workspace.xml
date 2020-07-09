@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23733e90-cb12-4696-ad00-ff9e458efc0d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/javaBasic/src/com/javaBasic/basicGrammar/basicArray/YiweiArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/javaBasic/src/com/javaBasic/basicGrammar/basicArray/YiweiArrays.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/META-INF/javaBasic.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/BasicDataTypes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/ClassAndObjects.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/EnumAndAnnotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/EnumSeason.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/Exceptions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/LoopStatements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/Operator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/SelectionAndLoopStatements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/TestContructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/basicCollectionAndMap/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/basicCollectionAndMap/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/basicCollectionAndMap/TestCollection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/basicCollectionAndMap/TestCollection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/man.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/people.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaBasic/com/javaBasic/basicGrammar/people1.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,26 +30,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/javaBasic/src/com/javaBasic/basicGrammar/serilizable/JavaSerilalizable.java">
+        <entry file="file://$PROJECT_DIR$/javaBasic/src/com/javaBasic/basicGrammar/basicArray/YiweiArrays.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/javaBasic/src/com/javaBasic/basicGrammar/basicCollectionAndMap/TestCollection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1950">
-              <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-              <folding>
-                <element signature="e#1755#1756#0" expanded="true" />
-                <element signature="e#1775#1776#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="135">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -75,6 +74,7 @@
         <option value="$PROJECT_DIR$/javaBasic/src/com/javaBasic/basicGrammar/basicCollectionAndMap/Student.java" />
         <option value="$PROJECT_DIR$/javaBasic/src/com/javaBasic/basicGrammar/serilizable/JavaSerilalizable.java" />
         <option value="$PROJECT_DIR$/javaBasic/src/com/javaBasic/basicGrammar/basicCollectionAndMap/TestCollection.java" />
+        <option value="$PROJECT_DIR$/javaBasic/src/com/javaBasic/basicGrammar/basicArray/YiweiArrays.java" />
       </list>
     </option>
   </component>
@@ -98,42 +98,34 @@
         <subPane>
           <expand>
             <path>
-              <item name="JavaBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaBasic" type="b2602c69:ProjectViewProjectNode" />
-              <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
-              <item name="basicGrammar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="JavaBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
               <item name="basicGrammar" type="462c0819:PsiDirectoryNode" />
-              <item name="basicCollectionAndMap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="JavaBasic" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="b2602c69:ProjectViewProjectNode" />
               <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="javaBasic" type="462c0819:PsiDirectoryNode" />
               <item name="basicGrammar" type="462c0819:PsiDirectoryNode" />
-              <item name="serilizable" type="462c0819:PsiDirectoryNode" />
+              <item name="basicArray" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -144,7 +136,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1547730670922" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594280782963" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -164,7 +157,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestCollection">
+  <component name="RunManager" selected="Application.YiweiArrays">
     <configuration name="JavaSerilalizable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.javaBasic.basicGrammar.serilizable.JavaSerilalizable" />
       <module name="javaBasic" />
@@ -191,8 +184,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YiweiArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.javaBasic.basicGrammar.basicArray.YiweiArrays" />
+      <module name="javaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.javaBasic.basicGrammar.basicArray.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.YiweiArrays" />
         <item itemvalue="Application.TestCollection" />
         <item itemvalue="Application.JavaSerilalizable" />
       </list>
@@ -214,6 +221,7 @@
       <workItem from="1547728549438" duration="1906000" />
       <workItem from="1547730468694" duration="50000" />
       <workItem from="1547730531592" duration="157000" />
+      <workItem from="1594280547930" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="t">
       <created>1547729291100</created>
@@ -233,7 +241,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32497000" />
+    <option name="totallyTimeSpent" value="32744000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -247,7 +255,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22228146" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22441365" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -266,7 +274,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.329718" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" visible="true" weight="0.329718" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -452,7 +460,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaBasic/src/com/javaBasic/basicGrammar/serilizable/JavaSerilalizable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="306">
           <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -462,12 +470,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/javaBasic/src/com/javaBasic/basicGrammar/basicCollectionAndMap/TestCollection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1950">
-          <caret line="67" column="5" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="e#1755#1756#0" expanded="true" />
-            <element signature="e#1775#1776#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1566">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBasic/src/com/javaBasic/basicGrammar/basicArray/ErweiArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javaBasic/src/com/javaBasic/basicGrammar/basicArray/YiweiArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
